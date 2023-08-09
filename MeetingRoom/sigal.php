@@ -2,7 +2,7 @@
 <html>
 <body>
 
-<h1>sigal.php by GS</h1>
+<h1>sigal.php / gs</h1>
   
 <p></p>
   
