@@ -1,5 +1,5 @@
 <?php
   $fname = $_GET["fname"];
   $lname = $_GET["lname"];
-  echo ("Hello $fname $lname");
+  echo ("<h1>Hi $fname $lname. how are you?</h1>");
 ?>
