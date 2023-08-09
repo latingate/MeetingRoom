@@ -1,5 +1,5 @@
 <?php
   $fname = $_POST["fname"];
   $lname = $_POST["lname"];
-  response.write ("Hello $fname $lname");
+  echo ("Hello $fname $lname");
 ?>
