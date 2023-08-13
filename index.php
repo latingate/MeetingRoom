@@ -1,9 +1,8 @@
+redirecting to MeeeingRoom in  2 seconds..
 <?php
-// Wait for 3 seconds
-sleep(1);
 
 // Redirect to a specific URL
 $redirectURL = "/MeetingRoom"; // Change this to the desired URL
-header("Location: $redirectURL");
+header("Refresh: 2; Location: $redirectURL");
 exit(); // Terminate the script
 ?>
