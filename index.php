@@ -1,13 +1,11 @@
-redirecting to MeetinRoom..
+redirecting to MeetinRoom in 3 seconds..
 
 <?php
+// Wait for 3 seconds
+sleep(3);
 
-// Wait for 2 seconds
-sleep(2);
-
-// Redirect to a subfolder
-$redirectURL = "/MeetingRoom"; // Change this to the actual subfolder URL
+// Redirect to a specific URL
+$redirectURL = "/MeetingRoom"; // Change this to the desired URL
 header("Location: $redirectURL");
-exit(); // Make sure to exit after sending the header
+exit(); // Terminate the script
 ?>
-
